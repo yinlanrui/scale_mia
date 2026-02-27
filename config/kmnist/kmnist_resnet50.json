@@ -1,0 +1,13 @@
+{
+    "dataset_name": "kmnist",
+    "model_name": "resnet50",
+    "epochs": 100,
+    "attack_epochs": 200,
+    "num_cls": 10,
+    "input_dim": 3,
+    "optimizer": "sgd",
+    "scheduler": "cosine",
+    "lr": 0.1,
+    "weight_decay": 5e-4,
+    "model_num": 8
+}

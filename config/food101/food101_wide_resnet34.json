@@ -1,0 +1,12 @@
+{
+    "dataset_name": "food101",
+    "model_name": "wide_resnet34",
+    "epochs": 100,
+    "attack_epochs": 150,
+    "num_cls": 101,
+    "input_dim": 3,
+    "optimizer": "sgd",
+    "scheduler": "cosine",
+    "lr": 0.1,
+    "weight_decay": 5e-4
+}

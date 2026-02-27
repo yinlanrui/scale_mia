@@ -1,0 +1,12 @@
+{
+    "dataset_name": "emnist",
+    "model_name": "densenet121",
+    "epochs": 120,
+    "attack_epochs": 150,
+    "num_cls": 47,
+    "input_dim": 3,
+    "optimizer": "sgd",
+    "scheduler": "cosine",
+    "lr": 0.1,
+    "weight_decay": 5e-4
+}
